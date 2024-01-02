@@ -1,0 +1,73 @@
+{
+  "root": true,
+
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": true
+  },
+
+  "plugins": ["import", "@typescript-eslint"],
+
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:@typescript-eslint/stylistic-type-checked",
+    "plugin:fp-ts/recommended",
+    "prettier"
+  ],
+
+  "rules": {
+    // --- ES6
+    "no-duplicate-imports": "error",
+    "no-void": ["error", {"allowAsStatement": true}], // related to https://typescript-eslint.io/rules/no-floating-promises/#ignorevoid
+
+    // --- Import
+    "import/no-deprecated": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "parent", ["sibling", "index"]],
+        "pathGroups": [
+          {
+            "pattern": "@/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "./style.*",
+            "group": "index",
+            "position": "after"
+          },
+          {
+            "pattern": "./*.html",
+            "group": "index",
+            "position": "after"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["builtin"],
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
+
+    // --- Typescript
+    "@typescript-eslint/ban-types": [
+      "error",
+      {
+        "types": {
+          "{}": false
+        },
+        "extendDefaults": true
+      }
+    ],
+    "@typescript-eslint/no-floating-promises": ["error", {"ignoreIIFE": true}],
+
+    // --- fp-ts
+    "fp-ts/no-module-imports": "off",
+    "fp-ts/no-redundant-flow": "error",
+    "fp-ts/prefer-traverse": "error",
+    "fp-ts/prefer-chain": "error",
+    "fp-ts/prefer-bimap": "error"
+  }
+}
