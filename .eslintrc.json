@@ -18,6 +18,7 @@
 
   "rules": {
     // --- ES6
+    "arrow-body-style": ["error", "as-needed"],
     "no-duplicate-imports": "error",
     "no-void": ["error", {"allowAsStatement": true}], // related to https://typescript-eslint.io/rules/no-floating-promises/#ignorevoid
 

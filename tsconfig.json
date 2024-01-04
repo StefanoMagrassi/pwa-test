@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["DOM", "DOM.Iterable", "ES6", "ES2016.Array.Include"],
+    "lib": ["DOM", "DOM.Iterable", "ES6", "ES2016.Array.Include", "WebWorker"],
     "jsx": "preserve",
     "module": "ES6",
     "moduleResolution": "Node",

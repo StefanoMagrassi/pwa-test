@@ -14,5 +14,12 @@
     <div id="root"></div>
 
     <script async src="/index.js"></script>
+
+    <!-- Register the app's service worker. -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+      }
+    </script>
   </body>
 </html>
