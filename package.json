@@ -13,7 +13,7 @@
     "check": "tsc --noEmit",
     "lint": "eslint . --ext .js,.ts,.tsx",
     "test": "npm run check && npm run lint",
-    "prebuild": "rm -rf ./dist/* && cp -R ./public/* ./dist/",
+    "prebuild": "rm -rf ./dist && mkdir ./dist && cp -R ./public/* ./dist/",
     "build": "tsc",
     "server": "http-server ./dist -p 8080 --silent",
     "prestart": "npm run build",
