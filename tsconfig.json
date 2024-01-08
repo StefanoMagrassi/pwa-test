@@ -19,8 +19,10 @@
     "removeComments": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "sourceMap": true,
+    // "sourceMap": true,
     "strict": true,
+    "inlineSources": true,
+    "inlineSourceMap": true,
     "target": "ES6"
   },
   "include": ["./src"]

@@ -4,6 +4,8 @@ const VERSION = '1.0.0';
 
 const init = (scope: ServiceWorkerGlobalScope): void => {
   cacheHandler(scope);
+
+  pushHandler(scope);
 };
 
 // --- Cache
@@ -11,18 +13,17 @@ const RESOURCES = ['/', '/index.html', '/icon.png', '/index.js'];
 const CACHE_NAME = `pwa-test-${VERSION}`;
 
 const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
-  // --- Cache
   const caches = scope.caches;
   const fromCaches = fromCache(caches);
 
-  // --- --- cache static resource on install
+  // --- cache static resource on install
   scope.addEventListener('install', event => {
     event.waitUntil(
       caches.open(CACHE_NAME).then(cache => cache.addAll(RESOURCES))
     );
   });
 
-  // --- --- remove old caches on activate
+  // --- remove old caches on activate
   scope.addEventListener('activate', event => {
     event.waitUntil(
       caches
@@ -38,8 +39,7 @@ const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
     );
   });
 
-  // On fetch, intercept server requests
-  // and respond with cached responses instead of going to network
+  // --- on fetch, intercept server requests and respond with cached responses instead of going to network
   scope.addEventListener('fetch', event => {
     event.respondWith(
       event.request.mode === 'navigate'
@@ -56,9 +56,43 @@ const fromCache =
   (request: RequestInfo | URL): Promise<Response> =>
     cache
       .match(request)
-      // Return the cached response if it's available
-      // or a 404 if resource isn't in the cache
+      // Return the cached response if it's available or a 404 if resource isn't in the cache
       .then(resp => resp ?? new Response(null, {status: 404}));
+
+// --- Push
+const pushHandler = (self: ServiceWorkerGlobalScope): void => {
+  self.addEventListener('push', event => {
+    event.waitUntil(sendNotification(self)(event.data?.text() ?? 'no data'));
+  });
+};
+
+const sendNotification =
+  (self: ServiceWorkerGlobalScope) =>
+  async (body: string): Promise<void> => {
+    const notify = showNotification(self);
+
+    switch (Notification.permission) {
+      case 'granted':
+        return notify(body);
+
+      case 'default': {
+        const permission = await Notification.requestPermission();
+
+        return permission === 'granted' ? notify(body) : undefined;
+      }
+
+      case 'denied':
+        return;
+    }
+  };
+
+const showNotification =
+  (self: ServiceWorkerGlobalScope) =>
+  async (body: string): Promise<void> =>
+    self.registration.showNotification('PWA Test', {
+      body: body,
+      icon: 'icon.png'
+    });
 
 // Work-around for Service Worker global scope in TS
 // ref. https://github.com/microsoft/TypeScript/issues/14877#issuecomment-1704437556
