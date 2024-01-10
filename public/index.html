@@ -8,14 +8,25 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/icon.png" />
 
     <link rel="manifest" href="/manifest.json" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@auth0/auth0-spa-js/dist/auth0-spa-js.production.min.js"></script>
   </head>
 
   <body>
     <div id="root">
       <h1>PWA TEST</h1>
+
+      <div>
+        <button id="login">Login</button>
+        <button id="logout">Logout</button>
+      </div>
+
+      <div>
+        <textarea id="user-profile" readonly rows="10" cols="50"></textarea>
+      </div>
     </div>
 
-    <script async src="/index.js"></script>
+    <script type="module" src="/index.js"></script>
 
     <!-- Register the app's service worker. -->
     <script>
