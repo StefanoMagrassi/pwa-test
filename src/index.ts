@@ -12,7 +12,7 @@ window.auth0
     domain: 'dev-shh2c83evzardpju.us.auth0.com',
     clientId: 'cU6Ildb9wjME4v79YJPYMSWsB72iVbLZ',
     authorizationParams: {
-      redirect_uri: window.location.origin
+      redirect_uri: window.location.href
     }
   })
   .then(async auth0Client => {
