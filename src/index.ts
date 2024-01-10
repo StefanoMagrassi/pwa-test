@@ -6,7 +6,6 @@ declare global {
   }
 }
 
-console.log('PD!');
 window.auth0
   .createAuth0Client({
     domain: 'dev-shh2c83evzardpju.us.auth0.com',
@@ -16,8 +15,6 @@ window.auth0
     }
   })
   .then(async auth0Client => {
-    console.log(auth0Client);
-
     // Assumes a button with id "login" in the DOM
     document.getElementById('login')!.addEventListener('click', e => {
       e.preventDefault();

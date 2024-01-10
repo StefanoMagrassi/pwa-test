@@ -14,7 +14,6 @@ const CACHE_NAME = `pwa-test-${VERSION}`;
 
 const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
   const caches = scope.caches;
-  const fromCaches = fromCache(caches);
 
   // --- cache static resource on install
   scope.addEventListener('install', event => {
@@ -41,23 +40,34 @@ const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
 
   // --- on fetch, intercept server requests and respond with cached responses instead of going to network
   scope.addEventListener('fetch', event => {
+    if (!RESOURCES.includes(event.request.url)) {
+      return;
+    }
+
     event.respondWith(
-      event.request.mode === 'navigate'
-        ? fromCaches('/')
-        : caches
-            .open(CACHE_NAME)
-            .then(cache => fromCache(cache)(event.request.url))
+      (async () => {
+        const cache = await caches.open(CACHE_NAME);
+        const resp = await cache.match(event.request);
+
+        if (resp) {
+          return resp;
+        }
+
+        try {
+          const networkResp = await fetch(event.request);
+
+          if (networkResp.ok) {
+            await cache.put(event.request, networkResp.clone());
+          }
+
+          return networkResp;
+        } catch (e) {
+          return Response.error();
+        }
+      })()
     );
   });
 };
-
-const fromCache =
-  (cache: CacheStorage | Cache) =>
-  (request: RequestInfo | URL): Promise<Response> =>
-    cache
-      .match(request)
-      // Return the cached response if it's available or a 404 if resource isn't in the cache
-      .then(resp => resp ?? new Response(null, {status: 404}));
 
 // --- Push
 const pushHandler = (self: ServiceWorkerGlobalScope): void => {
