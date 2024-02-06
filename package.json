@@ -8,19 +8,29 @@
   },
   "author": "StefanoMagrassi",
   "license": "UNLICENSED",
+  "source": "src/index.html",
   "scripts": {
     "prepare": "husky install",
-    "check": "tsc --noEmit",
+    "check": "tsc",
     "lint": "eslint . --ext .js,.ts,.tsx",
     "test": "npm run check && npm run lint",
-    "prebuild": "rm -rf ./dist && mkdir ./dist && cp -R ./public/* ./dist/",
-    "build": "tsc",
+    "prebuild": "rm -rf ./dist",
+    "build": "parcel build",
     "server": "http-server ./dist -p 8080 --silent",
     "prestart": "npm run build",
     "start": "npm run server",
-    "dev": "npm run server & npm run build -- --watch"
+    "dev": "parcel"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "2.1.3",
+    "fp-ts": "2.16.2",
+    "ua-parser-js": "1.0.37"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "2.11.0",
+    "@parcel/service-worker": "2.11.0",
+    "@parcel/transformer-webmanifest": "2.11.0",
+    "@types/ua-parser-js": "0.7.39",
     "@typescript-eslint/eslint-plugin": "6.17.0",
     "@typescript-eslint/parser": "6.17.0",
     "@typescript-eslint/typescript-estree": "6.17.0",
@@ -31,13 +41,14 @@
     "http-server": "14.1.1",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
+    "parcel": "2.11.0",
     "prettier": "3.1.1",
     "typescript": "5.3.3"
   },
+  "overrides": {
+    "@parcel/watcher": "~2.1.0"
+  },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write"
-  },
-  "dependencies": {
-    "@auth0/auth0-spa-js": "2.1.3"
   }
 }
