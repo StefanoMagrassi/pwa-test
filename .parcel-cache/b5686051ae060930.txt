@@ -1,8 +1,8 @@
-17578
-53/home/magrassi/dev/pwa-test/dist/manifest.webmanifest1707234561449597678 0
+17573
+53/home/magrassi/dev/pwa-test/dist/manifest.webmanifest1707234650529881309 0
 46/home/magrassi/dev/pwa-test/dist/manifest.json1707219027846598488 0
 41/home/magrassi/dev/pwa-test/tsconfig.json1707234533945510217 0
-42/home/magrassi/dev/pwa-test/src/index.html1707234561325597284 0
+42/home/magrassi/dev/pwa-test/src/index.html1707234839622484559 0
 45/home/magrassi/dev/pwa-test/src/manifest.json1707218911154705800 0
 37/home/magrassi/dev/pwa-test/src/sw.ts1707218911154705800 0
 61/home/magrassi/dev/pwa-test/node_modules/async/rejectLimit.js1707218958610652254 0
@@ -119,7 +119,7 @@
 73/home/magrassi/dev/pwa-test/node_modules/@types/semver/functions/inc.d.ts1707218958866652004 0
 64/home/magrassi/dev/pwa-test/node_modules/@types/semver/functions1707218958870652000 1
 63/home/magrassi/dev/pwa-test/node_modules/@types/json5/README.md1707218958254652604 0
-47/home/magrassi/dev/pwa-test/node_modules/@types1707218957758653091 1
+47/home/magrassi/dev/pwa-test/node_modules/@types1707235780432904783 1
 59/home/magrassi/dev/pwa-test/node_modules/get-stream/license1707218958242652615 0
 70/home/magrassi/dev/pwa-test/node_modules/get-stream/source/contents.js1707218958334652525 0
 68/home/magrassi/dev/pwa-test/node_modules/get-stream/source/string.js1707218958354652505 0
@@ -1264,6 +1264,7 @@
 60/home/magrassi/dev/pwa-test/node_modules/is-symbol/.eslintrc1707218958294652565 0
 70/home/magrassi/dev/pwa-test/node_modules/is-symbol/.github/FUNDING.yml1707218958410652450 0
 58/home/magrassi/dev/pwa-test/node_modules/is-symbol/.github1707218958406652455 1
+37/home/magrassi/dev/pwa-test/src/ua.ts1707235908584953729 0
 63/home/magrassi/dev/pwa-test/node_modules/is-symbol/package.json1707218958374652486 0
 57/home/magrassi/dev/pwa-test/node_modules/is-symbol/.nycrc1707218958310652549 0
 50/home/magrassi/dev/pwa-test/node_modules/is-symbol1707218958394652466 1
@@ -1907,7 +1908,6 @@
 58/home/magrassi/dev/pwa-test/node_modules/lodash/trimEnd.js1707218958806652063 0
 63/home/magrassi/dev/pwa-test/node_modules/lodash/intersection.js1707218958750652118 0
 66/home/magrassi/dev/pwa-test/node_modules/lodash/_escapeHtmlChar.js1707218958630652235 0
-65/home/magrassi/dev/pwa-test/node_modules/lodash/_arrayIncludes.js1707218958378652482 0
 60/home/magrassi/dev/pwa-test/node_modules/lodash/dropRight.js1707218958706652161 0
 59/home/magrassi/dev/pwa-test/node_modules/lodash/isFinite.js1707218958766652102 0
 63/home/magrassi/dev/pwa-test/node_modules/lodash/defaultsDeep.js1707218958702652164 0
@@ -2077,7 +2077,7 @@
 65/home/magrassi/dev/pwa-test/node_modules/lodash/takeRightWhile.js1707218958802652067 0
 59/home/magrassi/dev/pwa-test/node_modules/lodash/conforms.js1707218958694652173 0
 58/home/magrassi/dev/pwa-test/node_modules/lodash/groupBy.js1707218958742652125 0
-43/home/magrassi/dev/pwa-test/dist/index.html1707234561469597742 0
+43/home/magrassi/dev/pwa-test/dist/index.html1707235977917000956 0
 61/home/magrassi/dev/pwa-test/node_modules/lodash/sampleSize.js1707218958798652070 0
 56/home/magrassi/dev/pwa-test/node_modules/lodash/words.js1707218958822652047 0
 60/home/magrassi/dev/pwa-test/node_modules/lodash/takeWhile.js1707218958802652067 0
@@ -2225,7 +2225,7 @@
 64/home/magrassi/dev/pwa-test/node_modules/lodash/fp/propertyOf.js1707218958794652075 0
 61/home/magrassi/dev/pwa-test/node_modules/lodash/fp/without.js1707218958822652047 0
 59/home/magrassi/dev/pwa-test/node_modules/lodash/fp/unary.js1707218958806652063 0
-38/home/magrassi/dev/pwa-test/dist/sw.js1707234561441597652 0
+38/home/magrassi/dev/pwa-test/dist/sw.js1707234650545881359 0
 60/home/magrassi/dev/pwa-test/node_modules/lodash/fp/toJSON.js1707218958806652063 0
 60/home/magrassi/dev/pwa-test/node_modules/lodash/fp/sample.js1707218958798652070 0
 62/home/magrassi/dev/pwa-test/node_modules/lodash/fp/uniqWith.js1707218958814652055 0
@@ -2369,7 +2369,7 @@
 60/home/magrassi/dev/pwa-test/node_modules/lodash/fp/escape.js1707218958710652157 0
 61/home/magrassi/dev/pwa-test/node_modules/lodash/fp/compose.js1707218958690652176 0
 58/home/magrassi/dev/pwa-test/node_modules/lodash/fp/head.js1707218958746652122 0
-40/home/magrassi/dev/pwa-test/src/index.ts1707232569095435454 0
+40/home/magrassi/dev/pwa-test/src/index.ts1707235946888978210 0
 71/home/magrassi/dev/pwa-test/node_modules/css-tree/lib/definition-syntax1707233353013867546 1
 63/home/magrassi/dev/pwa-test/node_modules/lodash/fp/kebabCase.js1707218958778652090 0
 63/home/magrassi/dev/pwa-test/node_modules/lodash/fp/flowRight.js1707218958730652137 0
@@ -2853,6 +2853,7 @@
 102/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/node_modules/type-fest/source/literal-union.d.ts1707218958538652325 0
 96/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/node_modules/type-fest/source/replace.d.ts1707218958574652290 0
 97/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/node_modules/type-fest/source/if-never.d.ts1707218958494652369 0
+87/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/node_modules/type-fest/index.d.ts1707218958502652360 0
 83/home/magrassi/dev/pwa-test/node_modules/eventemitter3/umd/eventemitter3.min.js.map1707218958758652109 0
 86/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/node_modules/type-fest/readme.md1707218958338652521 0
 66/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/node_modules1707218957758653091 1
@@ -2862,11 +2863,11 @@
 63/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/readme.md1707218958302652556 0
 53/home/magrassi/dev/pwa-test/node_modules/ansi-escapes1707218958302652556 1
 76/home/magrassi/dev/pwa-test/node_modules/@eslint-community/regexpp/index.mjs1707218958554652309 0
+79/home/magrassi/dev/pwa-test/node_modules/@eslint-community/regexpp/index.js.map1707218958506652357 0
 79/home/magrassi/dev/pwa-test/node_modules/@eslint-community/regexpp/package.json1707218958486652376 0
 77/home/magrassi/dev/pwa-test/node_modules/@eslint-community/regexpp/index.d.ts1707218958558652306 0
 75/home/magrassi/dev/pwa-test/node_modules/@eslint-community/regexpp/index.js1707218958478652385 0
 66/home/magrassi/dev/pwa-test/node_modules/@eslint-community/regexpp1707218958554652309 1
-84/home/magrassi/dev/pwa-test/node_modules/@eslint-community/eslint-utils/package.json1707218958346652514 0
 79/home/magrassi/dev/pwa-test/node_modules/@eslint-community/eslint-utils/LICENSE1707218958254652604 0
 85/home/magrassi/dev/pwa-test/node_modules/@eslint-community/eslint-utils/index.mjs.map1707218958458652404 0
 80/home/magrassi/dev/pwa-test/node_modules/@eslint-community/eslint-utils/index.js1707218958338652521 0
@@ -2890,6 +2891,7 @@
 69/home/magrassi/dev/pwa-test/node_modules/es-to-primitive/CHANGELOG.md1707218958438652424 0
 72/home/magrassi/dev/pwa-test/node_modules/semver/ranges/max-satisfying.js1707218958478652385 0
 61/home/magrassi/dev/pwa-test/node_modules/semver/ranges/gtr.js1707218958446652415 0
+68/home/magrassi/dev/pwa-test/node_modules/semver/ranges/intersects.js1707218958462652399 0
 72/home/magrassi/dev/pwa-test/node_modules/semver/ranges/to-comparators.js1707218958530652332 0
 72/home/magrassi/dev/pwa-test/node_modules/semver/ranges/min-satisfying.js1707218958482652380 0
 61/home/magrassi/dev/pwa-test/node_modules/semver/ranges/ltr.js1707218958474652387 0
@@ -3245,7 +3247,7 @@
 76/home/magrassi/dev/pwa-test/node_modules/es-abstract/2020/Number/lessThan.js1707218958806652063 0
 72/home/magrassi/dev/pwa-test/node_modules/is-callable/.github/FUNDING.yml1707218958418652443 0
 71/home/magrassi/dev/pwa-test/node_modules/es-abstract/2020/Number/add.js1707218958582652282 0
-54/home/magrassi/dev/pwa-test/dist/index.b71e74eb.js.map1707234561449597678 0
+54/home/magrassi/dev/pwa-test/dist/index.b71e74eb.js.map1707235977917000956 0
 72/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/regions/KP.js1707233353033867603 0
 77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2020/Number/bitwiseOR.js1707218958642652224 0
 76/home/magrassi/dev/pwa-test/node_modules/eslint-plugin-import/lib/docsUrl.js1707218958390652470 0
@@ -4411,7 +4413,7 @@
 80/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/BigInt/exponentiate.js1707218958738652130 0
 60/home/magrassi/dev/pwa-test/node_modules/lodash/castArray.js1707218958686652180 0
 78/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/BigInt/unaryMinus.js1707218958878651992 0
-50/home/magrassi/dev/pwa-test/dist/icon.00b3ea0c.png1707234561441597652 0
+50/home/magrassi/dev/pwa-test/dist/icon.00b3ea0c.png1707234650541881347 0
 77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/BigInt/remainder.js1707218958850652019 0
 59/home/magrassi/dev/pwa-test/node_modules/async/CHANGELOG.md1707218958634652231 0
 63/home/magrassi/dev/pwa-test/node_modules/type-fest/package.json1707218958254652604 0
@@ -4476,15 +4478,6 @@
 76/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/ThrowCompletion.js1707218958866652004 0
 91/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/features/css-text-orientation.js1707233352997867499 0
 73/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/ToDateString.js1707218958874651996 0
-69/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/MakeDate.js1707218958806652063 0
-71/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/RegExpExec.js1707218958842652028 0
-87/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/CompletePropertyDescriptor.js1707218958674652192 0
-66/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/floor.js1707218958742652125 0
-72/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/HasProperty.js1707218958782652086 0
-76/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/multiply.js1707218958830652040 0
-71/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/add.js1707218958590652275 0
-68/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/utils/List.cjs1707233352917867268 0
-77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/bitwiseOR.js1707218958646652220 0
 70/home/magrassi/dev/pwa-test/node_modules/string-argv/commonjs/index.js1707218958286652572 0
 61/home/magrassi/dev/pwa-test/node_modules/string-argv/commonjs1707218958298652560 1
 61/home/magrassi/dev/pwa-test/node_modules/string-argv/index.js1707218958298652560 0
@@ -4512,6 +4505,7 @@
 67/home/magrassi/dev/pwa-test/node_modules/is-number-object/README.md1707218958394652466 0
 87/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/features/css-nth-child-of.js1707233352985867465 0
 57/home/magrassi/dev/pwa-test/node_modules/levn/lib/cast.js1707218958294652565 0
+58/home/magrassi/dev/pwa-test/node_modules/levn/lib/index.js1707218958310652549 0
 45/home/magrassi/dev/pwa-test/node_modules/levn1707218958358652502 1
 55/home/magrassi/dev/pwa-test/node_modules/gopd/README.md1707218958354652505 0
 50/home/magrassi/dev/pwa-test/node_modules/gopd/test1707218958302652556 1
@@ -4702,11 +4696,11 @@
 91/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/features/css-overflow-overlay.js1707233352989867476 0
 53/home/magrassi/dev/pwa-test/node_modules/lmdb/keys.js1707233352989867476 0
 70/home/magrassi/dev/pwa-test/node_modules/ast-types/def/babel-core.d.ts1707218958530652332 0
-73/home/magrassi/dev/pwa-test/node_modules/es-abstract/2019/StringCreate.js1707218958858652012 0
-57/home/magrassi/dev/pwa-test/node_modules/eslint-scope/lib1707218958450652411 1
 57/home/magrassi/dev/pwa-test/node_modules/async/doUntil.js1707218958566652298 0
 78/home/magrassi/dev/pwa-test/node_modules/es-abstract/2020/UTF16DecodeString.js1707218958878651992 0
 67/home/magrassi/dev/pwa-test/node_modules/@parcel/graph/lib/Graph.js1707233352789866899 0
+73/home/magrassi/dev/pwa-test/node_modules/es-abstract/2019/StringCreate.js1707218958858652012 0
+57/home/magrassi/dev/pwa-test/node_modules/eslint-scope/lib1707218958450652411 1
 81/home/magrassi/dev/pwa-test/node_modules/lmdb/dependencies/lmdb-data-v1/libraries1707233352665866541 1
 72/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/ToPrimitive.js1707218958874651996 0
 73/home/magrassi/dev/pwa-test/node_modules/picocolors/picocolors.browser.js1707233352657866518 0
@@ -4764,8 +4758,6 @@
 57/home/magrassi/dev/pwa-test/node_modules/recast/README.md1707218958510652353 0
 100/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/css/types.json1707233352853867085 0
 109/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/parser/index.js1707233352929867304 0
-72/home/magrassi/dev/pwa-test/node_modules/cli-progress/lib/generic-bar.js1707233352757866806 0
-72/home/magrassi/dev/pwa-test/node_modules/esquery/dist/esquery.min.js.map1707218958554652309 0
 64/home/magrassi/dev/pwa-test/node_modules/lodash/fp/upperFirst.js1707218958818652051 0
 81/home/magrassi/dev/pwa-test/node_modules/es-abstract/2019/CreateMethodProperty.js1707218958690652176 0
 64/home/magrassi/dev/pwa-test/node_modules/parse-json/package.json1707233352673866564 0
@@ -5289,7 +5281,7 @@
 78/home/magrassi/dev/pwa-test/node_modules/@nodelib/fs.walk/out/readers/async.js1707218958354652505 0
 58/home/magrassi/dev/pwa-test/node_modules/lines-and-columns1707233352677866577 1
 59/home/magrassi/dev/pwa-test/node_modules/json5/package.json1707218958418652443 0
-66/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/package.json1707225349676051354 0
+66/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/package.json1707235749464901617 0
 79/home/magrassi/dev/pwa-test/node_modules/@parcel/core/test/PublicBundle.test.js1707233352985867465 0
 73/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/syntax/node/CDC.cjs1707233352785866888 0
 77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2015/NormalCompletion.js1707218958830652040 0
@@ -5316,7 +5308,6 @@
 93/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/index.d.ts.map1707218958702652164 0
 62/home/magrassi/dev/pwa-test/node_modules/lodash/_basePickBy.js1707218958578652286 0
 87/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-postcss/src/loadPlugins.js1707233352741866760 0
-76/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/main/ua-parser.mjs1707225349688051357 0
 101/home/magrassi/dev/pwa-test/node_modules/@parcel/core/test/fixtures/config-plugin-not-found/.parcelrc1707233352785866888 0
 91/home/magrassi/dev/pwa-test/node_modules/@parcel/core/test/fixtures/config-plugin-not-found1707233352781866876 1
 83/home/magrassi/dev/pwa-test/node_modules/@parcel/core/test/fixtures/invalid-targets1707233353013867546 1
@@ -5392,6 +5383,7 @@
 68/home/magrassi/dev/pwa-test/node_modules/css-tree/lib/lexer/index.js1707233352997867499 0
 85/home/magrassi/dev/pwa-test/node_modules/@parcel/core/test/fixtures/duplicate-targets1707233353009867534 1
 145/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/utils/dist/ts-eslint/Rule.d.ts.map1707218958606652259 0
+73/home/magrassi/dev/pwa-test/node_modules/@types/ua-parser-js/package.json1707235780448904786 0
 63/home/magrassi/dev/pwa-test/node_modules/is-string/package.json1707218958358652502 0
 70/home/magrassi/dev/pwa-test/node_modules/@nodelib/fs.stat/out/index.js1707218958386652475 0
 72/home/magrassi/dev/pwa-test/node_modules/eslint/lib/rules/no-plusplus.js1707218958706652161 0
@@ -5446,6 +5438,7 @@
 84/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/syntax/node/common/feature.cjs1707233352877867154 0
 98/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/usage.js1707233352889867187 0
 66/home/magrassi/dev/pwa-test/node_modules/@parcel/core/lib/types.js1707233353001867511 0
+75/home/magrassi/dev/pwa-test/node_modules/@parcel/core/lib/resolveOptions.js1707233352989867476 0
 70/home/magrassi/dev/pwa-test/node_modules/union/examples/simple/spdy.js1707218958490652372 0
 72/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/regions/JO.js1707233353033867603 0
 79/home/magrassi/dev/pwa-test/node_modules/@parcel/core/lib/public/Environment.js1707233352933867314 0
@@ -5456,6 +5449,7 @@
 158/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/lib/es2022.sharedmemory.d.ts1707218958734652134 0
 63/home/magrassi/dev/pwa-test/node_modules/lodash/_getFuncName.js1707218958638652227 0
 101/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2021.full.js.map1707218958678652187 0
+73/home/magrassi/dev/pwa-test/node_modules/fast-glob/out/providers/async.js1707218958354652505 0
 64/home/magrassi/dev/pwa-test/node_modules/@parcel/core/lib/public1707233352993867488 1
 128/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/pseudo-selectors/subselects.d.ts.map1707233352817866980 0
 75/home/magrassi/dev/pwa-test/node_modules/@parcel/core/lib/PackagerRunner.js1707233352965867407 0
@@ -5489,8 +5483,6 @@
 93/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/syntax/scope/index.js1707233353001867511 0
 127/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/definition/ImplicitGlobalVariableDefinition.d.ts1707218958762652106 0
 76/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-webmanifest/src1707234476813328714 1
-48/home/magrassi/dev/pwa-test/node_modules/reusify1707218958330652528 1
-80/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-webmanifest/LICENSE1707234476813328714 0
 58/home/magrassi/dev/pwa-test/node_modules/mime/package.json1707218958258652600 0
 72/home/magrassi/dev/pwa-test/node_modules/svgo/plugins/applyTransforms.js1707233352893867200 0
 77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2015/CompletionRecord.js1707218958674652192 0
@@ -5803,8 +5795,6 @@
 74/home/magrassi/dev/pwa-test/node_modules/es-abstract/2017/IteratorValue.js1707218958806652063 0
 72/home/magrassi/dev/pwa-test/node_modules/@parcel/workers/lib/cpuCount.js1707233352785866888 0
 112/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/no-array-constructor.js.map1707218958834652035 0
-68/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/ToUint8.js1707218958878651992 0
-103/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/variable/Variable.js.map1707218958714652153 0
 73/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/parser/sequence.cjs1707233352941867337 0
 77/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-babel/src/jsx.js1707233352781866876 0
 90/home/magrassi/dev/pwa-test/node_modules/css-select/node_modules/domutils/lib/esm/index.js1707233352737866750 0
@@ -5851,6 +5841,7 @@
 79/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-babel/lib/types.js1707233352789866899 0
 78/home/magrassi/dev/pwa-test/node_modules/@parcel/cache/lib/IDBCache.browser.js1707233352729866725 0
 149/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/scope/ForScope.d.ts1707218958742652125 0
+76/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/multiply.js1707218958830652040 0
 166/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils/astUtilities.d.ts.map1707218958562652302 0
 80/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-babel/lib/config.js1707233352753866796 0
 91/home/magrassi/dev/pwa-test/node_modules/yaml/browser/dist/compose/util-contains-newline.js1707218958662652203 0
@@ -6013,7 +6004,6 @@
 75/home/magrassi/dev/pwa-test/node_modules/css-select/node_modules/domhandler1707233352781866876 1
 65/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-html1707233352753866796 1
 80/home/magrassi/dev/pwa-test/node_modules/@parcel/packager-css/lib/CSSPackager.js1707233352681866587 0
-65/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/helpers1707225349688051357 1
 63/home/magrassi/dev/pwa-test/node_modules/lodash/_arraySample.js1707218958422652438 0
 98/home/magrassi/dev/pwa-test/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mtest4.c1707233352937867327 0
 95/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/util/misc.js.map1707218958834652035 0
@@ -6280,6 +6270,9 @@
 79/home/magrassi/dev/pwa-test/node_modules/cosmiconfig/dist/ExplorerBase.d.ts.map1707233352757866806 0
 79/home/magrassi/dev/pwa-test/node_modules/css-tree/lib/generator/token-before.js1707233353009867534 0
 72/home/magrassi/dev/pwa-test/node_modules/@ungap/structured-clone/.github1707218958442652420 1
+72/home/magrassi/dev/pwa-test/node_modules/cli-progress/lib/generic-bar.js1707233352757866806 0
+72/home/magrassi/dev/pwa-test/node_modules/esquery/dist/esquery.min.js.map1707218958554652309 0
+70/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/ua-parser.js1707235749460901617 0
 60/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/parser1707233352949867361 1
 81/home/magrassi/dev/pwa-test/node_modules/@parcel/profiler/src/SamplingProfiler.js1707233352717866692 0
 73/home/magrassi/dev/pwa-test/node_modules/es-abstract/2015/TimeFromYear.js1707218958866652004 0
@@ -6732,7 +6725,7 @@
 137/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/restructure/prepare/createDeclarationIndexer.js1707233352821866991 0
 96/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/common1707233352973867430 1
 73/home/magrassi/dev/pwa-test/node_modules/eslint/lib/rules/default-case.js1707218958594652270 0
-73/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/dist/ua-parser.html1707225349672051354 0
+73/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/dist/ua-parser.html1707235749460901617 0
 108/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/css-select/lib/procedure.js1707233352765866830 0
 68/home/magrassi/dev/pwa-test/node_modules/yaml/dist/schema/types.d.ts1707218958682652185 0
 113/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/lexer/generic-urange.js1707233352917867268 0
@@ -7289,6 +7282,13 @@
 63/home/magrassi/dev/pwa-test/node_modules/mkdirp/readme.markdown1707218958398652463 0
 81/home/magrassi/dev/pwa-test/node_modules/@parcel/diagnostic/test/markdown.test.js1707233352737866750 0
 70/home/magrassi/dev/pwa-test/node_modules/string.prototype.trim/LICENSE1707218958354652505 0
+76/home/magrassi/dev/pwa-test/node_modules/yaml/browser/dist/doc/createNode.js1707218958562652302 0
+63/home/magrassi/dev/pwa-test/node_modules/espree/lib/features.js1707218958398652463 0
+79/home/magrassi/dev/pwa-test/node_modules/es-abstract/2021/InstanceofOperator.js1707218958786652083 0
+79/home/magrassi/dev/pwa-test/node_modules/@parcel/packager-js/src/.eslintrc.json1707233352817866980 0
+62/home/magrassi/dev/pwa-test/node_modules/@parcel/fs/index.d.ts1707233352841867049 0
+71/home/magrassi/dev/pwa-test/node_modules/is-negative-zero/.eslintignore1707218958278652580 0
+58/home/magrassi/dev/pwa-test/node_modules/mkdirp/bin/cmd.js1707218958378652482 0
 104/home/magrassi/dev/pwa-test/node_modules/@parcel/workers/test/integration/workerfarm/shared-reference.js1707233352841867049 0
 95/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/clean1707233352893867200 1
 92/home/magrassi/dev/pwa-test/node_modules/@parcel/workers/test/integration/workerfarm/ping.js1707233352825867003 0
@@ -7611,7 +7611,6 @@
 63/home/magrassi/dev/pwa-test/node_modules/optionator/lib/util.js1707218958342652517 0
 95/home/magrassi/dev/pwa-test/node_modules/es-abstract/2019/ValidateAndApplyPropertyDescriptor.js1707218958878651992 0
 65/home/magrassi/dev/pwa-test/node_modules/react-refresh/runtime.js1707233352753866796 0
-92/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/extensions/ua-parser-extensions.js1707225349676051354 0
 72/home/magrassi/dev/pwa-test/node_modules/es-abstract/helpers/getProto.js1707218958766652102 0
 55/home/magrassi/dev/pwa-test/node_modules/csso/lib/clean1707233352937867327 1
 82/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/lib/shared/config-ops.js1707218958490652372 0
@@ -7713,7 +7712,7 @@
 59/home/magrassi/dev/pwa-test/node_modules/@parcel/logger/src1707233352689866610 1
 60/home/magrassi/dev/pwa-test/node_modules/fp-ts/Contravariant1707225417592068142 1
 61/home/magrassi/dev/pwa-test/node_modules/lodash/fp/whereEq.js1707218958822652047 0
-40/home/magrassi/dev/pwa-test/package.json1707234481485343550 0
+40/home/magrassi/dev/pwa-test/package.json1707235780452904786 0
 90/home/magrassi/dev/pwa-test/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/crypto.c1707233352853867085 0
 88/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-posthtml/src/loadPlugins.js1707233352697866633 0
 57/home/magrassi/dev/pwa-test/node_modules/tsutils/index.js1707218958306652553 0
@@ -7728,7 +7727,7 @@
 72/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/regions/IR.js1707233353033867603 0
 98/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/package.json1707233352801866934 0
 68/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/ToIndex.js1707218958874651996 0
-59/home/magrassi/dev/pwa-test/node_modules/.package-lock.json1707234481685344185 0
+59/home/magrassi/dev/pwa-test/node_modules/.package-lock.json1707235780548904802 0
 56/home/magrassi/dev/pwa-test/node_modules/shebang-command1707218958286652572 1
 66/home/magrassi/dev/pwa-test/node_modules/semver/functions/rsort.js1707218958506652357 0
 87/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/cjs/utils/names.cjs1707233352925867291 0
@@ -7962,6 +7961,7 @@
 72/home/magrassi/dev/pwa-test/node_modules/yaml/dist/schema/common/null.js1707218958614652251 0
 95/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/node_modules/type-fest/source/if-any.d.ts1707218958494652369 0
 118/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/definition/ParameterDefinition.d.ts.map1707218958706652161 0
+68/home/magrassi/dev/pwa-test/node_modules/@types/ua-parser-js/LICENSE1707235780444904785 0
 79/home/magrassi/dev/pwa-test/node_modules/es-abstract/2016/ValidateTypedArray.js1707218958878651992 0
 73/home/magrassi/dev/pwa-test/node_modules/ajv/lib/dot/_limitProperties.jst1707218958602652263 0
 78/home/magrassi/dev/pwa-test/node_modules/@parcel/utils/test/collection.test.js1707233352765866830 0
@@ -8030,6 +8030,7 @@
 58/home/magrassi/dev/pwa-test/node_modules/lodash/countBy.js1707218958698652169 0
 71/home/magrassi/dev/pwa-test/node_modules/es-abstract/2022/CreateHTML.js1707218958686652180 0
 70/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/package.json1707218958534652330 0
+60/home/magrassi/dev/pwa-test/node_modules/@types/ua-parser-js1707235780448904786 1
 97/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/definition-syntax/walk.js1707233353017867557 0
 72/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/regions/MV.js1707233353045867639 0
 62/home/magrassi/dev/pwa-test/node_modules/which-boxed-primitive1707218958382652477 1
@@ -8232,8 +8233,6 @@
 80/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/src/_iterable_to_array.mjs1707233353041867626 0
 57/home/magrassi/dev/pwa-test/node_modules/minimist/example1707218958422652438 1
 75/home/magrassi/dev/pwa-test/node_modules/yaml/dist/compose/resolve-end.d.ts1707218958678652187 0
-79/home/magrassi/dev/pwa-test/node_modules/@eslint-community/regexpp/index.js.map1707218958506652357 0
-93/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/extensions/ua-parser-extensions.mjs1707225349680051355 0
 51/home/magrassi/dev/pwa-test/node_modules/cli-cursor1707218958302652556 1
 141/home/magrassi/dev/pwa-test/node_modules/eslint-plugin-fp-ts/node_modules/@typescript-eslint/typescript-estree/dist/jsx/xhtml-entities.js.map1707218958606652259 0
 78/home/magrassi/dev/pwa-test/node_modules/has-tostringtag/test/shams/core-js.js1707218958330652528 0
@@ -8254,15 +8253,9 @@
 63/home/magrassi/dev/pwa-test/node_modules/array-includes/.github1707218958438652424 1
 97/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/syntax/node/Combinator.js1707233352977867442 0
 112/home/magrassi/dev/pwa-test/node_modules/eslint-plugin-fp-ts/node_modules/@typescript-eslint/visitor-keys/_ts3.41707218958402652459 1
-76/home/magrassi/dev/pwa-test/node_modules/yaml/browser/dist/doc/createNode.js1707218958562652302 0
-63/home/magrassi/dev/pwa-test/node_modules/espree/lib/features.js1707218958398652463 0
-79/home/magrassi/dev/pwa-test/node_modules/es-abstract/2021/InstanceofOperator.js1707218958786652083 0
-79/home/magrassi/dev/pwa-test/node_modules/@parcel/packager-js/src/.eslintrc.json1707233352817866980 0
-62/home/magrassi/dev/pwa-test/node_modules/@parcel/fs/index.d.ts1707233352841867049 0
-71/home/magrassi/dev/pwa-test/node_modules/is-negative-zero/.eslintignore1707218958278652580 0
 83/home/magrassi/dev/pwa-test/node_modules/es-abstract/2015/RequireObjectCoercible.js1707218958850652019 0
 53/home/magrassi/dev/pwa-test/node_modules/safer-buffer1707218958350652510 1
-31/home/magrassi/dev/pwa-test/src1707234432521188156 1
+31/home/magrassi/dev/pwa-test/src1707235700568904463 1
 76/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/syntax/atrule/nest.cjs1707233352925867291 0
 72/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/regions/OM.js1707233353049867649 0
 55/home/magrassi/dev/pwa-test/node_modules/clone/clone.js1707233352701866646 0
@@ -8428,7 +8421,6 @@
 99/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2018.full.d.ts1707218958742652125 0
 83/home/magrassi/dev/pwa-test/node_modules/tsconfig-paths/lib/match-path-async.js.map1707218958454652408 0
 97/home/magrassi/dev/pwa-test/node_modules/json-stable-stringify-without-jsonify/example/key_cmp.js1707218958338652521 0
-83/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/enums/ua-parser-enums.mjs1707225349680051355 0
 62/home/magrassi/dev/pwa-test/node_modules/espree/lib/version.js1707218958414652447 0
 148/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/scope/Scope.js.map1707218958698652169 0
 73/home/magrassi/dev/pwa-test/node_modules/object.fromentries/.editorconfig1707218958254652604 0
@@ -8529,7 +8521,7 @@
 58/home/magrassi/dev/pwa-test/node_modules/lodash/reverse.js1707218958798652070 0
 63/home/magrassi/dev/pwa-test/node_modules/resolve/lib/homedir.js1707218958546652318 0
 87/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs1707233352857867095 0
-32/home/magrassi/dev/pwa-test/dist1707234561469597742 1
+32/home/magrassi/dev/pwa-test/dist1707235977921000959 1
 148/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/types/_ts3.4/dist/parser-options.d.ts1707218958510652353 0
 53/home/magrassi/dev/pwa-test/node_modules/string-width1707218958298652560 1
 56/home/magrassi/dev/pwa-test/node_modules/ajv/lib/compile1707218958594652270 1
@@ -8615,7 +8607,7 @@
 59/home/magrassi/dev/pwa-test/node_modules/concat-map/example1707218958334652525 1
 110/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/sort-type-constituents.js1707218958818652051 0
 68/home/magrassi/dev/pwa-test/node_modules/source-map/lib/array-set.js1707218958362652498 0
-46/home/magrassi/dev/pwa-test/node_modules/@lmdb1707234481485343550 1
+46/home/magrassi/dev/pwa-test/node_modules/@lmdb1707235780448904786 1
 59/home/magrassi/dev/pwa-test/node_modules/lodash/isNative.js1707218958774652095 0
 71/home/magrassi/dev/pwa-test/node_modules/mdn-data/css/units.schema.json1707233352861867108 0
 55/home/magrassi/dev/pwa-test/node_modules/globby/license1707218958242652615 0
@@ -8867,6 +8859,7 @@
 68/home/magrassi/dev/pwa-test/node_modules/dom-serializer/package.json1707233352745866773 0
 85/home/magrassi/dev/pwa-test/node_modules/string.prototype.trimstart/implementation.js1707218958386652475 0
 95/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-json/node_modules/json5/LICENSE.md1707233352793866911 0
+71/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/RegExpExec.js1707218958842652028 0
 90/home/magrassi/dev/pwa-test/node_modules/ordered-binary/.nyc_output/processinfo/index.json1707233352769866842 0
 86/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/src/_tagged_template_literal.mjs1707233353045867639 0
 63/home/magrassi/dev/pwa-test/node_modules/ajv/lib/refs/data.json1707218958594652270 0
@@ -8964,8 +8957,6 @@
 110/home/magrassi/dev/pwa-test/node_modules/css-select/node_modules/entities/lib/generated/decode-data-xml.js.map1707233352849867072 0
 61/home/magrassi/dev/pwa-test/node_modules/lightningcss/LICENSE1707233352657866518 0
 58/home/magrassi/dev/pwa-test/node_modules/picomatch/LICENSE1707218958242652615 0
-73/home/magrassi/dev/pwa-test/node_modules/fast-glob/out/providers/async.js1707218958354652505 0
-75/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/main/ua-parser.js1707225349676051354 0
 60/home/magrassi/dev/pwa-test/node_modules/object-keys/LICENSE1707218958386652475 0
 87/home/magrassi/dev/pwa-test/node_modules/es-abstract/2022/SetTypedArrayFromArrayLike.js1707218958854652016 0
 96/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/esm/_class_apply_descriptor_destructure.js1707233352909867245 0
@@ -9092,7 +9083,6 @@
 119/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-readonly-parameter-types.js1707218958782652086 0
 67/home/magrassi/dev/pwa-test/node_modules/@parcel/types/package.json1707233352725866715 0
 99/home/magrassi/dev/pwa-test/node_modules/@mischnic/json-sourcemap/node_modules/json5/lib/require.js1707233352765866830 0
-88/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/helpers/ua-parser-helpers.d.ts1707225349688051357 0
 78/home/magrassi/dev/pwa-test/node_modules/csso/lib/replace/AttributeSelector.js1707233352881867164 0
 73/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/esm/_ts_metadata.js1707233352961867396 0
 51/home/magrassi/dev/pwa-test/node_modules/parse-json1707233352673866564 1
@@ -9102,13 +9092,6 @@
 70/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/SameValue.js1707218958850652019 0
 109/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2020.sharedmemory.js.map1707218958678652187 0
 67/home/magrassi/dev/pwa-test/node_modules/array-includes/polyfill.js1707218958386652475 0
-69/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/ToBigInt.js1707218958870652000 0
-79/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-html/src/inline.js1707233352753866796 0
-52/home/magrassi/dev/pwa-test/node_modules/imurmurhash1707218958298652560 1
-86/home/magrassi/dev/pwa-test/node_modules/array.prototype.findlastindex/test/shimmed.js1707218958390652470 0
-61/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/license1707218958250652607 0
-77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2021/NormalCompletion.js1707218958830652040 0
-109/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/referencer/ClassVisitor.js.map1707218958650652215 0
 64/home/magrassi/dev/pwa-test/node_modules/fp-ts/lib/Foldable.d.ts1707225417604068145 0
 77/home/magrassi/dev/pwa-test/node_modules/@parcel/watcher/src/watchman/BSER.hh1707233352829867015 0
 84/home/magrassi/dev/pwa-test/node_modules/es-abstract/2022/Number/signedRightShift.js1707218958858652012 0
@@ -9367,7 +9350,7 @@
 101/home/magrassi/dev/pwa-test/node_modules/lightningcss-linux-x64-musl/lightningcss.linux-x64-musl.node1707233999543824542 0
 86/home/magrassi/dev/pwa-test/node_modules/log-update/node_modules/ansi-regex/index.d.ts1707218958330652528 0
 61/home/magrassi/dev/pwa-test/node_modules/lodash/fp/mapKeys.js1707218958786652083 0
-40/home/magrassi/dev/pwa-test/node_modules1707234481485343550 1
+40/home/magrassi/dev/pwa-test/node_modules1707236059337071910 1
 74/home/magrassi/dev/pwa-test/node_modules/wrap-ansi/node_modules/strip-ansi1707218958306652553 1
 82/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/mdn-data/css/units.json1707233352861867108 0
 83/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/lib/config-array/index.js1707218958522652341 0
@@ -9527,6 +9510,7 @@
 84/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/utils/url.js1707233353013867546 0
 72/home/magrassi/dev/pwa-test/node_modules/es-abstract/2022/ArrayCreate.js1707218958606652259 0
 81/home/magrassi/dev/pwa-test/node_modules/utility-types/dist/functional-helpers.js1707233352681866587 0
+40/home/magrassi/dev/pwa-test/src/auth0.ts1707234825594439759 0
 65/home/magrassi/dev/pwa-test/node_modules/js-yaml/lib/type/bool.js1707218958326652533 0
 68/home/magrassi/dev/pwa-test/node_modules/eslint/lib/rules/no-void.js1707218958738652130 0
 82/home/magrassi/dev/pwa-test/node_modules/csso/lib/restructure/8-restructRuleset.js1707233352873867141 0
@@ -9841,6 +9825,8 @@
 90/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/features/once-event-listener.js1707233353049867649 0
 87/home/magrassi/dev/pwa-test/node_modules/yaml/dist/compose/resolve-flow-collection.d.ts1707218958678652187 0
 99/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/node_modules/brace-expansion/package.json1707218958250652607 0
+65/home/magrassi/dev/pwa-test/node_modules/lodash/_arrayIncludes.js1707218958378652482 0
+56/home/magrassi/dev/pwa-test/node_modules/.cache/prettier1707236059337071910 1
 77/home/magrassi/dev/pwa-test/node_modules/eslint/lib/rules/no-await-in-loop.js1707218958674652192 0
 76/home/magrassi/dev/pwa-test/node_modules/@parcel/core/node_modules/json5/lib1707233352825867003 1
 83/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/esm/_sliced_to_array_loose.js1707233352953867373 0
@@ -9916,6 +9902,7 @@
 89/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/cjs/_class_private_field_update.cjs1707233352813866968 0
 86/home/magrassi/dev/pwa-test/node_modules/resolve/test/resolver/same_names/foo/index.js1707218958602652263 0
 121/home/magrassi/dev/pwa-test/node_modules/eslint-plugin-fp-ts/node_modules/@typescript-eslint/types/_ts3.4/dist/index.d.ts1707218958506652357 0
+71/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/add.js1707218958590652275 0
 121/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/types/dist1707218958518652345 1
 79/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/conf/config-schema.js1707218958494652369 0
 64/home/magrassi/dev/pwa-test/node_modules/resolve/example/sync.js1707218958622652242 0
@@ -10087,8 +10074,6 @@
 86/home/magrassi/dev/pwa-test/node_modules/csso/lib/restructure/2-initialMergeRuleset.js1707233352865867118 0
 67/home/magrassi/dev/pwa-test/node_modules/file-entry-cache/README.md1707218958342652517 0
 64/home/magrassi/dev/pwa-test/node_modules/flat-cache/package.json1707218958394652466 0
-76/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/lessThan.js1707218958806652063 0
-73/home/magrassi/dev/pwa-test/node_modules/yaml/dist/schema/yaml-1.1/set.js1707218958650652215 0
 76/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/lib/flat-compat.js1707218958510652353 0
 128/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-optional-chain-utils/compareNodes.js1707218958630652235 0
 83/home/magrassi/dev/pwa-test/node_modules/@parcel/utils/test/input/config/config.cjs1707233352705866656 0
@@ -10097,7 +10082,7 @@
 73/home/magrassi/dev/pwa-test/node_modules/es-abstract/helpers/isInteger.js1707218958794652075 0
 95/home/magrassi/dev/pwa-test/node_modules/@parcel/package-manager/src/validateModuleSpecifier.js1707233352877867154 0
 92/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/lib/config-array/ignore-pattern.js1707218958510652353 0
-42/home/magrassi/dev/pwa-test/dist/sw.js.map1707234561445597665 0
+42/home/magrassi/dev/pwa-test/dist/sw.js.map1707234650549881372 0
 58/home/magrassi/dev/pwa-test/node_modules/js-yaml/README.md1707218958530652332 0
 65/home/magrassi/dev/pwa-test/node_modules/node-gyp-build/README.md1707233352741866760 0
 64/home/magrassi/dev/pwa-test/node_modules/array.prototype.flatmap1707218958426652435 1
@@ -10503,6 +10488,20 @@
 63/home/magrassi/dev/pwa-test/node_modules/@parcel/codeframe/test1707233352897867210 1
 91/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/_/_await_async_generator/package.json1707233352985867465 0
 63/home/magrassi/dev/pwa-test/node_modules/ajv/dist/ajv.bundle.js1707218958498652365 0
+69/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/ToBigInt.js1707218958870652000 0
+79/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-html/src/inline.js1707233352753866796 0
+52/home/magrassi/dev/pwa-test/node_modules/imurmurhash1707218958298652560 1
+86/home/magrassi/dev/pwa-test/node_modules/array.prototype.findlastindex/test/shimmed.js1707218958390652470 0
+61/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/license1707218958250652607 0
+77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2021/NormalCompletion.js1707218958830652040 0
+109/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/referencer/ClassVisitor.js.map1707218958650652215 0
+47/home/magrassi/dev/pwa-test/node_modules/.cache1707236059337071910 1
+86/home/magrassi/dev/pwa-test/node_modules/node-gyp-build-optional-packages/package.json1707233352697866633 0
+76/home/magrassi/dev/pwa-test/node_modules/typescript/lib/lib.es2015.core.d.ts1707218959530651357 0
+90/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/tokenizer/index.js1707233353001867511 0
+66/home/magrassi/dev/pwa-test/node_modules/@lezer/lr/dist/index.d.ts1707233352781866876 0
+64/home/magrassi/dev/pwa-test/node_modules/es-abstract/2022/Day.js1707218958702652164 0
+46/home/magrassi/dev/pwa-test/node_modules/fastq1707218958454652408 1
 63/home/magrassi/dev/pwa-test/node_modules/requires-port/index.js1707218958378652482 0
 62/home/magrassi/dev/pwa-test/node_modules/fs.realpath/README.md1707218958266652592 0
 76/home/magrassi/dev/pwa-test/node_modules/@parcel/config-default/package.json1707233352705866656 0
@@ -10607,7 +10606,7 @@
 83/home/magrassi/dev/pwa-test/node_modules/yaml/browser/dist/compose/resolve-props.js1707218958634652231 0
 105/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/_/_class_static_private_field_spec_get/package.json1707233353005867523 0
 81/home/magrassi/dev/pwa-test/node_modules/yaml/browser/dist/compose/resolve-end.js1707218958626652240 0
-45/home/magrassi/dev/pwa-test/package-lock.json1707234481613343957 0
+45/home/magrassi/dev/pwa-test/package-lock.json1707235780512904796 0
 92/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/syntax/config/mix.js1707233353005867523 0
 98/home/magrassi/dev/pwa-test/node_modules/@auth0/auth0-spa-js/dist/typings/worker/worker.types.d.ts1707218959170651708 0
 92/home/magrassi/dev/pwa-test/node_modules/yaml/browser/dist/compose/util-flow-indent-check.js1707218958662652203 0
@@ -10738,9 +10737,6 @@
 75/home/magrassi/dev/pwa-test/node_modules/uri-js/dist/es5/uri.all.min.js.map1707218958530652332 0
 80/home/magrassi/dev/pwa-test/node_modules/csso/lib/restructure/6-restructBlock.js1707233352869867131 0
 115/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/webworker.importscripts.d.ts.map1707218958718652148 0
-71/home/magrassi/dev/pwa-test/node_modules/typescript/lib/lib.es2020.d.ts1707218959534651353 0
-81/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/sameValueZero.js1707218958854652016 0
-72/home/magrassi/dev/pwa-test/node_modules/yaml/dist/parse/line-counter.js1707218958606652259 0
 71/home/magrassi/dev/pwa-test/node_modules/update-browserslist-db/LICENSE1707233352653866507 0
 78/home/magrassi/dev/pwa-test/node_modules/@parcel/runtime-js/lib/helpers/worker1707233352861867108 1
 59/home/magrassi/dev/pwa-test/node_modules/yaml/dist/index.js1707218958602652263 0
@@ -10912,7 +10908,7 @@
 63/home/magrassi/dev/pwa-test/node_modules/lodash/_unicodeSize.js1707218958674652192 0
 105/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/_/_class_static_private_field_spec_set/package.json1707233353005867523 0
 97/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2020.intl.js1707218958566652298 0
-45/home/magrassi/dev/pwa-test/node_modules/@swc1707234481485343550 1
+45/home/magrassi/dev/pwa-test/node_modules/@swc1707235780448904786 1
 94/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/syntax/node/Comment.js1707233352977867442 0
 75/home/magrassi/dev/pwa-test/node_modules/yaml/dist/schema/yaml-1.1/float.js1707218958594652270 0
 112/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/docs/rules/prefer-namespace-keyword.md1707218958862652007 0
@@ -10986,6 +10982,7 @@
 65/home/magrassi/dev/pwa-test/node_modules/lodash/fp/pullAllWith.js1707218958794652075 0
 76/home/magrassi/dev/pwa-test/node_modules/yaml/dist/nodes/addPairToJSMap.d.ts1707218958666652200 0
 68/home/magrassi/dev/pwa-test/node_modules/yaml/dist/nodes/Scalar.d.ts1707218958678652187 0
+71/home/magrassi/dev/pwa-test/node_modules/@types/ua-parser-js/index.d.ts1707235780448904786 0
 74/home/magrassi/dev/pwa-test/node_modules/yaml/dist/nodes/addPairToJSMap.js1707218958342652517 0
 60/home/magrassi/dev/pwa-test/node_modules/ast-types/fork.d.ts1707218958566652298 0
 96/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/lib/shared/relative-module-resolver.js1707218958530652332 0
@@ -11101,11 +11098,6 @@
 84/home/magrassi/dev/pwa-test/node_modules/@lmdb/lmdb-linux-x64/node.abi108.glibc.node1707233352829867015 0
 105/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/util/getFunctionHeadLoc.js1707218958654652212 0
 90/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/lib/config-array/config-array.js1707218958478652385 0
-76/home/magrassi/dev/pwa-test/node_modules/typescript/lib/lib.es2015.core.d.ts1707218959530651357 0
-90/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/tokenizer/index.js1707233353001867511 0
-66/home/magrassi/dev/pwa-test/node_modules/@lezer/lr/dist/index.d.ts1707233352781866876 0
-64/home/magrassi/dev/pwa-test/node_modules/es-abstract/2022/Day.js1707218958702652164 0
-46/home/magrassi/dev/pwa-test/node_modules/fastq1707218958454652408 1
 81/home/magrassi/dev/pwa-test/node_modules/css-select/lib/pseudo-selectors/index.js1707233352805866945 0
 53/home/magrassi/dev/pwa-test/node_modules/lmdb/LICENSE1707233352813866968 0
 62/home/magrassi/dev/pwa-test/node_modules/ajv/lib/dot/anyOf.jst1707218958602652263 0
@@ -11440,7 +11432,7 @@
 50/home/magrassi/dev/pwa-test/node_modules/which/bin1707218958254652604 1
 63/home/magrassi/dev/pwa-test/node_modules/is-shared-array-buffer1707218958390652470 1
 65/home/magrassi/dev/pwa-test/node_modules/tsutils/util/type.js.map1707218958562652302 0
-57/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src1707225349676051354 1
+57/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src1707235749460901617 1
 63/home/magrassi/dev/pwa-test/node_modules/tsutils/util/type.d.ts1707218958590652275 0
 69/home/magrassi/dev/pwa-test/node_modules/tsutils/util/control-flow.js1707218958278652580 0
 88/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-html/src/HTMLTransformer.js1707233352729866725 0
@@ -11841,8 +11833,6 @@
 79/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/cjs/_array_with_holes.cjs1707233352717866692 0
 84/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/syntax/node/index-generate.cjs1707233352897867210 0
 160/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/lib/es2020.symbol.wellknown.js1707218958558652306 0
-58/home/magrassi/dev/pwa-test/node_modules/levn/lib/index.js1707218958310652549 0
-63/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/enums1707225349680051355 1
 63/home/magrassi/dev/pwa-test/node_modules/typescript/LICENSE.txt1707218959554651334 0
 57/home/magrassi/dev/pwa-test/node_modules/globby/readme.md1707218958342652517 0
 59/home/magrassi/dev/pwa-test/node_modules/pidtree/lib/get.js1707218958298652560 0
@@ -11875,7 +11865,7 @@
 73/home/magrassi/dev/pwa-test/node_modules/eslint-plugin-fp-ts/lib/utils.js1707218958334652525 0
 64/home/magrassi/dev/pwa-test/node_modules/@swc/types/package.json1707233352673866564 0
 91/home/magrassi/dev/pwa-test/node_modules/css-select/node_modules/entities/lib/decode.js.map1707233352853867085 0
-54/home/magrassi/dev/pwa-test/dist/index.6d8617f8.js.map1707234561465597728 0
+54/home/magrassi/dev/pwa-test/dist/index.6d8617f8.js.map1707234650601881537 0
 71/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/cjs/_to_array.cjs1707233352881867164 0
 99/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/l10n/css.json1707233352781866876 0
 85/home/magrassi/dev/pwa-test/node_modules/csso/node_modules/css-tree/lib/syntax/config1707233353017867557 1
@@ -12299,8 +12289,6 @@
 133/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/visitor-keys/README.md1707218958402652459 0
 66/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/syntax/scope1707233352957867384 1
 70/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/src/_dispose.mjs1707233353041867626 0
-58/home/magrassi/dev/pwa-test/node_modules/glob/package.json1707218958362652498 0
-66/home/magrassi/dev/pwa-test/node_modules/eslint-scope/lib/index.js1707218958382652477 0
 74/home/magrassi/dev/pwa-test/node_modules/es-abstract/2020/TimeWithinDay.js1707218958870652000 0
 110/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/pseudo/not.js1707233352953867373 0
 69/home/magrassi/dev/pwa-test/node_modules/@parcel/watcher/src/Event.hh1707233352833867026 0
@@ -12426,8 +12414,6 @@
 122/home/magrassi/dev/pwa-test/node_modules/eslint-plugin-fp-ts/node_modules/@typescript-eslint/types/dist/ts-estree.d.ts.map1707218958454652408 0
 77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2022/BigInt/sameValue.js1707218958850652019 0
 113/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/generator/create.js1707233352837867038 0
-87/home/magrassi/dev/pwa-test/node_modules/ansi-escapes/node_modules/type-fest/index.d.ts1707218958502652360 0
-77/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/main/ua-parser.d.ts1707225349688051357 0
 123/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/css-select/lib/pseudo-selectors/pseudos.js1707233352769866842 0
 81/home/magrassi/dev/pwa-test/node_modules/@swc/helpers/_/_ts_decorate/package.json1707233353029867593 0
 141/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/utils/dist/ast-utils/misc.d.ts1707218958658652208 0
@@ -12486,7 +12472,8 @@
 108/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/lines-around-comment.js1707218958734652134 0
 101/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/scope/FunctionScope.js1707218958602652263 0
 81/home/magrassi/dev/pwa-test/node_modules/uri-js/dist/esnext/schemes/urn-uuid.d.ts1707218958566652298 0
-58/home/magrassi/dev/pwa-test/node_modules/mkdirp/bin/cmd.js1707218958378652482 0
+58/home/magrassi/dev/pwa-test/node_modules/glob/package.json1707218958362652498 0
+66/home/magrassi/dev/pwa-test/node_modules/eslint-scope/lib/index.js1707218958382652477 0
 71/home/magrassi/dev/pwa-test/node_modules/eslint-scope/lib/referencer.js1707218958414652447 0
 66/home/magrassi/dev/pwa-test/node_modules/eslint-scope/lib/scope.js1707218958438652424 0
 76/home/magrassi/dev/pwa-test/node_modules/eslint-scope/lib/pattern-visitor.js1707218958398652463 0
@@ -12661,6 +12648,7 @@
 59/home/magrassi/dev/pwa-test/node_modules/ajv/lib/dot/if.jst1707218958606652259 0
 109/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/no-restricted-imports.js1707218958762652106 0
 76/home/magrassi/dev/pwa-test/node_modules/htmlnano/lib/modules/minifyJson.cjs1707233352801866934 0
+72/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/HasProperty.js1707218958782652086 0
 73/home/magrassi/dev/pwa-test/node_modules/fp-ts/NonEmptyArray/package.json1707225417596068143 0
 93/home/magrassi/dev/pwa-test/node_modules/htmlnano/lib/modules/collapseAttributeWhitespace.cjs1707233352717866692 0
 56/home/magrassi/dev/pwa-test/node_modules/lodash/plant.js1707218958794652075 0
@@ -12675,6 +12663,9 @@
 159/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/lib/es2016.array.include.d.ts1707218958718652148 0
 95/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/scope/index.d.ts1707218958766652102 0
 77/home/magrassi/dev/pwa-test/node_modules/htmlnano/lib/modules/mergeStyles.cjs1707233352785866888 0
+48/home/magrassi/dev/pwa-test/node_modules/reusify1707218958330652528 1
+80/home/magrassi/dev/pwa-test/node_modules/@parcel/transformer-webmanifest/LICENSE1707234476813328714 0
+64/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/license.md1707235749464901617 0
 79/home/magrassi/dev/pwa-test/node_modules/svgo/plugins/convertEllipseToCircle.js1707233352901867223 0
 78/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/utils/package.json1707218959198651680 0
 91/home/magrassi/dev/pwa-test/node_modules/htmlnano/lib/modules/collapseBooleanAttributes.cjs1707233352725866715 0
@@ -13585,7 +13576,7 @@
 59/home/magrassi/dev/pwa-test/node_modules/ansi-regex/license1707218958250652607 0
 56/home/magrassi/dev/pwa-test/node_modules/minimist/.nycrc1707218958278652580 0
 76/home/magrassi/dev/pwa-test/node_modules/eslint-import-resolver-node/LICENSE1707218958250652607 0
-58/home/magrassi/dev/pwa-test/node_modules/@msgpackr-extract1707234481485343550 1
+58/home/magrassi/dev/pwa-test/node_modules/@msgpackr-extract1707235780448904786 1
 79/home/magrassi/dev/pwa-test/node_modules/typescript/lib/lib.es2018.promise.d.ts1707218959530651357 0
 103/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2020.full.d.ts.map1707218958674652192 0
 94/home/magrassi/dev/pwa-test/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/index.js1707233352641866472 0
@@ -13768,8 +13759,6 @@
 72/home/magrassi/dev/pwa-test/node_modules/css-select/lib/general.d.ts.map1707233352861867108 0
 112/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-namespace-keyword.js1707218958778652090 0
 102/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/docs/rules/no-mixed-enums.md1707218958858652012 0
-75/home/magrassi/dev/pwa-test/node_modules/@parcel/core/lib/resolveOptions.js1707233352989867476 0
-63/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/README.md1707225349680051355 0
 59/home/magrassi/dev/pwa-test/node_modules/fp-ts/lib/Alt.d.ts1707225417600068144 0
 68/home/magrassi/dev/pwa-test/node_modules/css-select/lib/types.js.map1707233352889867187 0
 64/home/magrassi/dev/pwa-test/node_modules/css-select/lib/types.js1707233352829867015 0
@@ -14221,6 +14210,7 @@
 71/home/magrassi/dev/pwa-test/node_modules/minimatch/dist/cjs/escape.d.ts1707218958818652051 0
 72/home/magrassi/dev/pwa-test/node_modules/@parcel/core/test/test-utils.js1707233353001867511 0
 95/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/utils/dist/ts-eslint/Scope.d.ts.map1707218959202651675 0
+69/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/MakeDate.js1707218958806652063 0
 82/home/magrassi/dev/pwa-test/node_modules/caniuse-lite/data/features/text-stroke.js1707233353053867662 0
 64/home/magrassi/dev/pwa-test/node_modules/@lezer/common/README.md1707233352781866876 0
 87/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/utils/dist/ts-eslint/AST.js1707218959198651680 0
@@ -14606,7 +14596,6 @@
 123/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-readonly-parameter-types.js.map1707218958850652019 0
 85/home/magrassi/dev/pwa-test/node_modules/eslint/lib/rules/no-useless-backreference.js1707218958730652137 0
 78/home/magrassi/dev/pwa-test/node_modules/arraybuffer.prototype.slice/.eslintrc1707218958322652537 0
-87/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/helpers/ua-parser-helpers.mjs1707225349680051355 0
 74/home/magrassi/dev/pwa-test/node_modules/resolve/test/resolver/symlinked/_1707218958534652330 1
 103/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/scope/MappedTypeScope.js1707218958610652254 0
 116/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-enum-initializers.js.map1707218958842652028 0
@@ -15067,6 +15056,7 @@
 89/home/magrassi/dev/pwa-test/node_modules/@babel/highlight/node_modules/chalk/templates.js1707233352721866702 0
 120/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node/Declaration.js1707233352897867210 0
 91/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/analyze.d.ts1707218958722652145 0
+70/home/magrassi/dev/pwa-test/node_modules/@types/ua-parser-js/README.md1707235780448904786 0
 64/home/magrassi/dev/pwa-test/node_modules/entities/lib/index.d.ts1707233352821866991 0
 152/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/lib/es2020.full.js.map1707218958666652200 0
 63/home/magrassi/dev/pwa-test/node_modules/fp-ts/lib/MonadTask.js1707225417580068138 0
@@ -15114,6 +15104,8 @@
 86/home/magrassi/dev/pwa-test/node_modules/@auth0/auth0-spa-js/src/cache/key-manifest.ts1707218959170651708 0
 96/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/utils/dist/ts-eslint/Config.d.ts.map1707218959202651675 0
 111/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/scope/ClassStaticBlockScope.d.ts1707218958726652141 0
+73/home/magrassi/dev/pwa-test/node_modules/yaml/dist/schema/yaml-1.1/set.js1707218958650652215 0
+76/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/lessThan.js1707218958806652063 0
 94/home/magrassi/dev/pwa-test/node_modules/@eslint/eslintrc/lib/config-array/extracted-config.js1707218958506652357 0
 109/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/scope/MappedTypeScope.d.ts.map1707218958702652164 0
 67/home/magrassi/dev/pwa-test/node_modules/object.groupby/polyfill.js1707218958398652463 0
@@ -15165,9 +15157,6 @@
 118/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/restructure/1-mergeAtrule.js1707233352685866600 0
 60/home/magrassi/dev/pwa-test/node_modules/mimic-fn/index.d.ts1707218958326652533 0
 101/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2016.full.js.map1707218958662652203 0
-65/home/magrassi/dev/pwa-test/node_modules/fp-ts/es6/Compactable.js1707225417576068138 0
-80/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/exponentiate.js1707218958738652130 0
-109/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/decorators.legacy.d.ts.map1707218958650652215 0
 62/home/magrassi/dev/pwa-test/node_modules/htmlnano/CHANGELOG.md1707233352929867304 0
 120/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/definition/CatchClauseDefinition.d.ts.map1707218958642652224 0
 98/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2023.array.js1707218958590652275 0
@@ -15340,6 +15329,8 @@
 103/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/esnext.string.js.map1707218958694652173 0
 88/home/magrassi/dev/pwa-test/node_modules/es-abstract/2017/GetPrototypeFromConstructor.js1707218958766652102 0
 99/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2019.intl.d.ts1707218958742652125 0
+75/home/magrassi/dev/pwa-test/node_modules/@parcel/graph/src/AdjacencyList.js1707233352745866773 0
+101/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2019.string.d.ts1707218958742652125 0
 84/home/magrassi/dev/pwa-test/node_modules/@parcel/core/test/fixtures/config-malformed1707233352729866725 1
 89/home/magrassi/dev/pwa-test/node_modules/eslint-visitor-keys/dist/eslint-visitor-keys.cjs1707218958302652556 0
 94/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2015.d.ts1707218958730652137 0
@@ -15755,7 +15746,7 @@
 174/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/typescript-estree/dist/create-program/createSourceFile.d.ts.map1707218958570652293 0
 68/home/magrassi/dev/pwa-test/node_modules/resolve/test/precedence/aaa1707218958610652254 1
 174/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/typescript-estree/dist/create-program/createProjectProgram.d.ts1707218958618652247 0
-50/home/magrassi/dev/pwa-test/dist/index.6d8617f8.js1707234561465597728 0
+50/home/magrassi/dev/pwa-test/dist/index.6d8617f8.js1707234650597881525 0
 183/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/typescript-estree/dist/create-program/getWatchProgramsForProjects.js.map1707218958586652279 0
 145/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/typescript-estree/dist/parser.d.ts1707218958642652224 0
 65/home/magrassi/dev/pwa-test/node_modules/css-tree/lib/syntax/node1707233353017867557 1
@@ -16159,6 +16150,9 @@
 63/home/magrassi/dev/pwa-test/node_modules/lmdb/dependencies/lmdb1707233352717866692 1
 52/home/magrassi/dev/pwa-test/node_modules/uri-js/dist1707218958406652455 1
 152/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/scope/GlobalScope.d.ts1707218958746652122 0
+65/home/magrassi/dev/pwa-test/node_modules/fp-ts/es6/Compactable.js1707225417576068138 0
+109/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/decorators.legacy.d.ts.map1707218958650652215 0
+80/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/exponentiate.js1707218958738652130 0
 150/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/scope/index.d.ts.map1707218958690652176 0
 80/home/magrassi/dev/pwa-test/node_modules/eslint/lib/rules/rest-spread-spacing.js1707218958766652102 0
 90/home/magrassi/dev/pwa-test/node_modules/css-tree/lib/syntax/node/PseudoElementSelector.js1707233353009867534 0
@@ -16466,7 +16460,7 @@
 60/home/magrassi/dev/pwa-test/node_modules/wrappy/package.json1707218958218652639 0
 71/home/magrassi/dev/pwa-test/node_modules/eslint-plugin-import/lib/rules1707218958606652259 1
 150/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/lib/es2019.object.js1707218958534652330 0
-75/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/dist/ua-parser.min.js1707225349676051354 0
+75/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/dist/ua-parser.min.js1707235749460901617 0
 89/home/magrassi/dev/pwa-test/node_modules/css-select/node_modules/entities/lib/encode.d.ts1707233352893867200 0
 149/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/lib/es2019.d.ts.map1707218958662652203 0
 88/home/magrassi/dev/pwa-test/node_modules/es-abstract/2021/SetTypedArrayFromTypedArray.js1707218958854652016 0
@@ -16678,7 +16672,6 @@
 87/home/magrassi/dev/pwa-test/node_modules/node-gyp-build-optional-packages/build-test.js1707233352669866553 0
 69/home/magrassi/dev/pwa-test/node_modules/yaml/dist/parse/cst-visit.js1707218958578652286 0
 61/home/magrassi/dev/pwa-test/node_modules/has-symbols/index.js1707218958358652502 0
-86/home/magrassi/dev/pwa-test/node_modules/node-gyp-build-optional-packages/package.json1707233352697866633 0
 61/home/magrassi/dev/pwa-test/node_modules/fp-ts/lib/Apply.d.ts1707225417600068144 0
 106/home/magrassi/dev/pwa-test/node_modules/node-gyp-build-optional-packages/node_modules/detect-libc/LICENSE1707233352657866518 0
 57/home/magrassi/dev/pwa-test/node_modules/slash/index.d.ts1707218958262652595 0
@@ -16980,7 +16973,6 @@
 87/home/magrassi/dev/pwa-test/node_modules/slice-ansi/node_modules/ansi-styles/index.d.ts1707218958338652521 0
 68/home/magrassi/dev/pwa-test/node_modules/prettier/plugins/babel.d.ts1707218958774652095 0
 61/home/magrassi/dev/pwa-test/node_modules/is-array-buffer/test1707218958330652528 1
-82/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/enums/ua-parser-enums.js1707225349672051354 0
 57/home/magrassi/dev/pwa-test/node_modules/ignore/legacy.js1707218958414652447 0
 111/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/removeStyleElement.js1707233352893867200 0
 59/home/magrassi/dev/pwa-test/node_modules/ignore/LICENSE-MIT1707218958354652505 0
@@ -17407,21 +17399,15 @@
 64/home/magrassi/dev/pwa-test/node_modules/nullthrows/package.json1707233352661866530 0
 76/home/magrassi/dev/pwa-test/node_modules/es-abstract/2022/IsStrictlyEqual.js1707218958798652070 0
 61/home/magrassi/dev/pwa-test/node_modules/nullthrows/README.md1707233352705866656 0
-53/home/magrassi/dev/pwa-test/node_modules/ua-parser-js1707225349680051355 1
-64/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/LICENSE.md1707225349680051355 0
-68/home/magrassi/dev/pwa-test/node_modules/semver/ranges/intersects.js1707218958462652399 0
-86/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/helpers/ua-parser-helpers.js1707225349676051354 0
-68/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/extensions1707225349688051357 1
-94/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/extensions/ua-parser-extensions.d.ts1707225349688051357 0
-75/home/magrassi/dev/pwa-test/node_modules/@parcel/graph/src/AdjacencyList.js1707233352745866773 0
-101/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/lib/es2019.string.d.ts1707218958742652125 0
-62/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/src/main1707225349688051357 1
+53/home/magrassi/dev/pwa-test/node_modules/ua-parser-js1707235749464901617 1
+84/home/magrassi/dev/pwa-test/node_modules/@eslint-community/eslint-utils/package.json1707218958346652514 0
+63/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/readme.md1707235749464901617 0
 56/home/magrassi/dev/pwa-test/node_modules/async/filter.js1707218958578652286 0
 85/home/magrassi/dev/pwa-test/node_modules/@parcel/optimizer-htmlnano/node_modules/csso1707233352897867210 1
-58/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/dist1707225349676051354 1
+58/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/dist1707235749460901617 1
 63/home/magrassi/dev/pwa-test/node_modules/css-tree/lib/generator1707233353009867534 1
 98/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/eslint-plugin/dist/rules/quotes.js.map1707218958850652019 0
-76/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/dist/ua-parser.pack.js1707225349676051354 0
+76/home/magrassi/dev/pwa-test/node_modules/ua-parser-js/dist/ua-parser.pack.js1707235749460901617 0
 61/home/magrassi/dev/pwa-test/node_modules/http-server/lib/core1707218958506652357 1
 82/home/magrassi/dev/pwa-test/node_modules/@parcel/core/node_modules/json5/README.md1707233352797866922 0
 58/home/magrassi/dev/pwa-test/node_modules/.bin/browserslist1707233015036937694 0
@@ -17453,7 +17439,7 @@
 69/home/magrassi/dev/pwa-test/node_modules/uri-js/dist/es5/uri.all.d.ts1707218958562652302 0
 64/home/magrassi/dev/pwa-test/node_modules/es-abstract/2015/min.js1707218958818652051 0
 71/home/magrassi/dev/pwa-test/node_modules/uri-js/dist/es5/uri.all.js.map1707218958522652341 0
-50/home/magrassi/dev/pwa-test/dist/index.b71e74eb.js1707234561449597678 0
+50/home/magrassi/dev/pwa-test/dist/index.b71e74eb.js1707235977913000953 0
 161/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/experimental-utils/node_modules/@typescript-eslint/scope-manager/dist/referencer/ImportVisitor.js.map1707218958690652176 0
 67/home/magrassi/dev/pwa-test/node_modules/uri-js/dist/esnext/util.js1707218958474652387 0
 104/home/magrassi/dev/pwa-test/node_modules/@parcel/core/test/fixtures/invalid-source-not-file/src/index.js1707233352941867337 0
@@ -17577,3 +17563,12 @@
 77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/leftShift.js1707218958806652063 0
 86/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/unsignedRightShift.js1707218958878651992 0
 78/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/bitwiseAND.js1707218958638652227 0
+71/home/magrassi/dev/pwa-test/node_modules/typescript/lib/lib.es2020.d.ts1707218959534651353 0
+72/home/magrassi/dev/pwa-test/node_modules/yaml/dist/parse/line-counter.js1707218958606652259 0
+81/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/sameValueZero.js1707218958854652016 0
+68/home/magrassi/dev/pwa-test/node_modules/css-tree/cjs/utils/List.cjs1707233352917867268 0
+77/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/Number/bitwiseOR.js1707218958646652220 0
+103/home/magrassi/dev/pwa-test/node_modules/@typescript-eslint/scope-manager/dist/variable/Variable.js.map1707218958714652153 0
+68/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/ToUint8.js1707218958878651992 0
+87/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/CompletePropertyDescriptor.js1707218958674652192 0
+66/home/magrassi/dev/pwa-test/node_modules/es-abstract/2023/floor.js1707218958742652125 0
