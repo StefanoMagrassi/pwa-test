@@ -1,4 +1,15 @@
-import {detect} from './ua';
+import * as IO from 'fp-ts/IO';
+import {pipe} from 'fp-ts/function';
+import {debug, output} from './print';
+import {detect, isDesktop} from './ua';
+
+const main = pipe(
+  detect,
+  IO.chainFirst(data =>
+    output(isDesktop(data) ? 'IS DESKTOP' : 'IS MOBILE (not desktop)')
+  ),
+  IO.flatMap(debug)
+);
 
 // --- Run
-detect();
+main();

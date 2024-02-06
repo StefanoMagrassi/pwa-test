@@ -1,9 +1,11 @@
 import * as IO from 'fp-ts/IO';
-import {UAParser} from 'ua-parser-js';
+import {UAParser, type IResult} from 'ua-parser-js';
 
-export const detect: IO.IO<void> = () => {
+export const detect: IO.IO<IResult> = () => {
   const uaParser = new UAParser();
-  const data = uaParser.getResult();
 
-  return console.log(data);
+  return uaParser.getResult();
 };
+
+export const isDesktop = (ua: IResult): boolean =>
+  typeof ua.device.type === 'undefined';
