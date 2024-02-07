@@ -1,6 +1,6 @@
 /// <reference lib="WebWorker" />
 
-const VERSION = '1.0.0';
+import {manifest, version} from '@parcel/service-worker';
 
 const init = (scope: ServiceWorkerGlobalScope): void => {
   cacheHandler(scope);
@@ -9,8 +9,8 @@ const init = (scope: ServiceWorkerGlobalScope): void => {
 };
 
 // --- Cache
-const RESOURCES = ['/', '/index.html', '/icon.png', '/index.js'];
-const CACHE_NAME = `pwa-test-${VERSION}`;
+const RESOURCES = [...manifest, '/', '/index.html', '/icon.png', '/index.js'];
+const CACHE_NAME = `pwa-test-${version}`;
 
 const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
   const caches = scope.caches;
@@ -18,7 +18,10 @@ const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
   // --- cache static resource on install
   scope.addEventListener('install', event => {
     event.waitUntil(
-      caches.open(CACHE_NAME).then(cache => cache.addAll(RESOURCES))
+      caches
+        .open(CACHE_NAME)
+        .then(cache => cache.addAll(RESOURCES))
+        .catch(console.error)
     );
   });
 
@@ -35,6 +38,7 @@ const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
           )
         )
         .then(() => scope.clients.claim())
+        .catch(console.error)
     );
   });
 
@@ -72,7 +76,11 @@ const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
 // --- Push
 const pushHandler = (self: ServiceWorkerGlobalScope): void => {
   self.addEventListener('push', event => {
-    event.waitUntil(sendNotification(self)(event.data?.text() ?? 'no data'));
+    event.waitUntil(
+      sendNotification(self)(event.data?.text() ?? 'no data').catch(
+        console.error
+      )
+    );
   });
 };
 
