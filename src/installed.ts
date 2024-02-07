@@ -1,3 +1,4 @@
+import * as IO from 'fp-ts/IO';
 import * as T from 'fp-ts/Task';
 
 // non standard API - use it carefully
@@ -31,3 +32,9 @@ export const installedRelatedApps: T.Task<InstalledRelatedApp[]> = () => {
     ? nav.getInstalledRelatedApps()
     : Promise.resolve([]);
 };
+
+export const isInstalled: IO.IO<boolean> = () =>
+  Boolean(
+    ('standalone' in window.navigator && window.navigator.standalone) ||
+      window.matchMedia('(display-mode: standalone)').matches
+  );
