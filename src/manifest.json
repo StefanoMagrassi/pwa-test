@@ -8,8 +8,7 @@
       "sizes": "512x512"
     }
   ],
-  "scope": "/",
-  "start_url": "/",
+  "start_url": "/pwa-test",
   "display": "standalone",
   "related_applications": [
     {
