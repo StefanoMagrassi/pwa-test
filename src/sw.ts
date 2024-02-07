@@ -9,7 +9,6 @@ const init = (scope: ServiceWorkerGlobalScope): void => {
 };
 
 // --- Cache
-const RESOURCES = [...manifest, '/', '/index.html', '/icon.png', '/index.js'];
 const CACHE_NAME = `pwa-test-${version}`;
 
 const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
@@ -18,9 +17,9 @@ const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
   // --- cache static resource on install
   scope.addEventListener('install', event => {
     event.waitUntil(
-      caches
+      scope.caches
         .open(CACHE_NAME)
-        .then(cache => cache.addAll(RESOURCES))
+        .then(cache => cache.addAll(manifest))
         .catch(console.error)
     );
   });
@@ -44,7 +43,7 @@ const cacheHandler = (scope: ServiceWorkerGlobalScope): void => {
 
   // --- on fetch, intercept server requests and respond with cached responses instead of going to network
   scope.addEventListener('fetch', event => {
-    if (!RESOURCES.includes(event.request.url)) {
+    if (!manifest.includes(event.request.url)) {
       return;
     }
 

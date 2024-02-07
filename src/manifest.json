@@ -7,6 +7,25 @@
       "sizes": "512x512"
     }
   ],
+  "scope": "/",
   "start_url": "/",
-  "display": "standalone"
+  "display": "standalone",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "http://localhost:1234/manifest.json"
+    },
+    {
+      "platform": "webapp",
+      "url": "http://localhost:1234/manifest.webmanifest"
+    },
+    {
+      "platform": "webapp",
+      "url": "https://stefanomagrassi.github.io/pwa-test/manifest.webmanifest"
+    },
+    {
+      "platform": "webapp",
+      "url": "https://stefanomagrassi.github.io/pwa-test/manifest.json"
+    }
+  ]
 }

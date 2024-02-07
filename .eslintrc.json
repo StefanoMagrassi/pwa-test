@@ -63,6 +63,13 @@
       }
     ],
     "@typescript-eslint/no-floating-promises": ["error", {"ignoreIIFE": true}],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "destructuredArrayIgnorePattern": "^_"
+      }
+    ],
 
     // --- fp-ts
     "fp-ts/no-module-imports": "off",
