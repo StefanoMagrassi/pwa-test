@@ -24,12 +24,10 @@ interface NavigatorExt extends Navigator {
   getInstalledRelatedApps?(): Promise<InstalledRelatedApp[]>;
 }
 
-export const installed: T.Task<void> = () => {
+export const installedRelatedApps: T.Task<InstalledRelatedApp[]> = () => {
   const nav = navigator as unknown as NavigatorExt;
 
-  if (nav.getInstalledRelatedApps) {
-    return nav.getInstalledRelatedApps().then(console.log);
-  }
-
-  return Promise.resolve();
+  return nav.getInstalledRelatedApps
+    ? nav.getInstalledRelatedApps()
+    : Promise.resolve([]);
 };
